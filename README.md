@@ -11,11 +11,15 @@ A simple and efficient web application to split bills among multiple users in re
 🔄 Dynamic split (equal/custom)  
 📊 Clear breakdown of individual shares  
 🎯 User-friendly interface  
-🛠️ Tech Stack  
+
+🛠️ Tech Stack :   
+
 🎨 Frontend  
 TypeScript  
 React     
-HTML, CSS  
+HTML, CSS
+
+
 ⚙️ Backend  
 Java  
 Spring Boot  
