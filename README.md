@@ -22,21 +22,21 @@ Spring Boot
 REST APIs  
 🗄️ Database  
 MySQL   
-📂 Project Structure
-real-time-bill-splitter/
+📂 Project Structure  
+real-time-bill-splitter/  
+│   
+├── frontend/         # TypeScript   
+│   ├── src/  
+│   └── package.json  
+│  
+├── backend/          # Spring Boot backend  
+│   ├── src/main/java/    
+│   ├── src/main/resources/  
+│   └── pom.xml  
 │
-├── frontend/         # TypeScript (React) frontend
-│   ├── src/
-│   └── package.json
-│
-├── backend/          # Spring Boot backend
-│   ├── src/main/java/
-│   ├── src/main/resources/
-│   └── pom.xml
-│
-└── README.md
-⚙️ Setup & Installation
-🔹 Prerequisites
+└── README.md    
+⚙️ Setup & Installation  
+🔹 Prerequisites  
 
 Make sure you have installed:
 
