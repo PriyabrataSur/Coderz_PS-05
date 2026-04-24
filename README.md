@@ -32,9 +32,11 @@ real-time-bill-splitter/
 ├── backend/          # Spring Boot backend  
 │   ├── src/main/java/    
 │   ├── src/main/resources/  
-│   └── pom.xml  
+│   └── pom.xml
+
 │
-└── README.md    
+└── README.md 
+
 ⚙️ Setup & Installation  
 🔹 Prerequisites  
 
