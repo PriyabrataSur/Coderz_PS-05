@@ -4,24 +4,24 @@ A simple and efficient web application to split bills among multiple users in re
 
 🌐 Live Demo: https://v0-real-time-bill-splitter.vercel.app/
 
-🚀 Features
-⚡ Real-time bill updates
-👥 Add multiple participants
-💰 Automatic expense calculation
-🔄 Dynamic split (equal/custom)
-📊 Clear breakdown of individual shares
-🎯 User-friendly interface
-🛠️ Tech Stack
-🎨 Frontend
-TypeScript
-React (or your framework if different)
-HTML, CSS
-⚙️ Backend
-Java
-Spring Boot
-REST APIs
-🗄️ Database
-MySQL / SQL-based database
+🚀 Features  
+⚡ Real-time bill updates   
+👥 Add multiple participants   
+💰 Automatic expense calculation   
+🔄 Dynamic split (equal/custom)  
+📊 Clear breakdown of individual shares  
+🎯 User-friendly interface  
+🛠️ Tech Stack  
+🎨 Frontend  
+TypeScript  
+React     
+HTML, CSS  
+⚙️ Backend  
+Java  
+Spring Boot  
+REST APIs  
+🗄️ Database  
+MySQL   
 📂 Project Structure
 real-time-bill-splitter/
 │
@@ -40,10 +40,10 @@ real-time-bill-splitter/
 
 Make sure you have installed:
 
-Node.js
-Java (JDK 17+ recommended)
-Maven
-MySQL
+* Node.js
+* Java (JDK 17+ recommended)
+* Maven
+* MySQL
 
 📌 About the Project
 
