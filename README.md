@@ -1,66 +1,84 @@
-React Skeleton
+💸 Real-Time Bill Splitter
 
-***🚀 DevWrap 2.0 — Repository Setup Guide***
+A simple and efficient web application to split bills among multiple users in real time. This project helps eliminate confusion and manual calculations when managing shared expenses.
 
-Follow these steps carefully to set up your team repository correctly.
+🌐 Live Demo: https://v0-real-time-bill-splitter.vercel.app/
 
-- 1️⃣ Fork the Repository
-Go to the main repository link shared by the organizers
-Click the Fork button (top-right corner) on GitHub
-This creates a copy of the repository under your account
-- 2️⃣ Rename Your Forked Repository
+🚀 Features
+⚡ Real-time bill updates
+👥 Add multiple participants
+💰 Automatic expense calculation
+🔄 Dynamic split (equal/custom)
+📊 Clear breakdown of individual shares
+🎯 User-friendly interface
+🛠️ Tech Stack
+🎨 Frontend
+TypeScript
+React (or your framework if different)
+HTML, CSS
+⚙️ Backend
+Java
+Spring Boot
+REST APIs
+🗄️ Database
+MySQL / SQL-based database
+📂 Project Structure
+real-time-bill-splitter/
+│
+├── frontend/         # TypeScript (React) frontend
+│   ├── src/
+│   └── package.json
+│
+├── backend/          # Spring Boot backend
+│   ├── src/main/java/
+│   ├── src/main/resources/
+│   └── pom.xml
+│
+└── README.md
+⚙️ Setup & Installation
+🔹 Prerequisites
 
-After forking:
+Make sure you have installed:
 
-Open your forked repository
-Go to Settings → Repository Name
-Rename it using the format:
-TeamName_ProjectId
-✅ Example:
-CodeWarriors_DW102
+Node.js
+Java (JDK 17+ recommended)
+Maven
+MySQL
 
-⚠️ This format is mandatory for evaluation and tracking.
+📌 About the Project
 
-- 3️⃣ Add Your Team Members as Contributors
-Go to Settings → Collaborators
-Click Add people
-Enter your teammates’ GitHub usernames
-Send the invite
-Teammates must accept the invitation
-💡 Tip:
+Real-Time Bill Splitter is a full-stack web application designed to simplify the process of splitting expenses among multiple users. Whether it's a group of friends dining out, roommates sharing daily costs, or travelers managing trip expenses, this application provides a fast and accurate way to divide bills without confusion.
 
-Ensure all team members are added — commits from non-members may not be considered.
+Traditional bill splitting often involves manual calculations, which can lead to errors, misunderstandings, and wasted time. This project solves that problem by offering an automated and real-time solution where users can add items, include participants, and instantly see how much each person owes.
 
-- 4️⃣ Clone the Repository to Your Local Machine
-🔹 Step 1: Copy Repo URL
-Go to your forked repo
-Click Code → HTTPS
-Copy the URL
-🔹 Step 2: Clone using Git
+The application focuses on delivering a seamless user experience with a clean interface, dynamic calculations, and efficient backend processing. By leveraging modern web technologies like TypeScript for the frontend and Spring Boot for the backend, the system ensures reliability, scalability, and responsiveness.
 
-Open terminal / command prompt:
-```bash
-git clone https://github.com/your-username/TeamName_ProjectId.git
-```
-🔹 Step 3: Move into Project Folder
-cd TeamName_ProjectId
-- 5️⃣ Start Working Locally
-🔹 Create a new branch (recommended)
-```bash
-git checkout -b feature/your-feature-name
-```
-🔹 Make changes, then commit
-```bash
-git add .
-git commit -m "Added: feature description"
-```
-🔹 Push changes to GitHub
-```bash
-git push origin feature/your-feature-name
-```
+🎯 Objective
 
-✅ Final Checklist
-✔ Repository name follows TeamName_ProjectId
-✔ All teammates added as collaborators
-✔ Code pushed to GitHub regularly
-✔ Proper commit messages used
+The main objective of this project is to:
+
+Eliminate manual effort in bill calculations
+Provide real-time updates for shared expenses
+Ensure fairness and transparency among users
+Build a scalable full-stack application using modern technologies
+💡 Problem Statement
+
+In everyday scenarios, people often face challenges while splitting bills:
+
+Difficulty in calculating individual shares
+Lack of clarity on who owes what
+Time-consuming manual processes
+Errors in uneven expense distribution
+
+This project addresses these issues by automating the entire process and presenting clear, accurate results instantly.
+
+🌟 Solution
+
+The Real-Time Bill Splitter provides:
+
+Automated expense calculation
+Real-time updates across users
+Flexible splitting options (equal/custom)
+A simple and intuitive interface
+
+It ensures that users can manage shared expenses efficiently without any confusion or conflict.
